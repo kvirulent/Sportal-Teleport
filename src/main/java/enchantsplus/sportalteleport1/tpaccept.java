@@ -1,6 +1,5 @@
 package enchantsplus.sportalteleport1;
 
-import jdk.internal.net.http.common.Pair;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
