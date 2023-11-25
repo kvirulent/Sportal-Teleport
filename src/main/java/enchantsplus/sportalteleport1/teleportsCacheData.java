@@ -1,7 +1,5 @@
 package enchantsplus.sportalteleport1;
 
-import jdk.internal.net.http.common.Pair;
-
 import java.util.AbstractMap;
 import java.util.HashMap;
 import java.util.Map;

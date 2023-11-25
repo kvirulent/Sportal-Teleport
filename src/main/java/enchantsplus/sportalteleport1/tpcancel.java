@@ -19,7 +19,6 @@ public class tpcancel implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, String[] args) {
 
         Player requester = (Player) sender;
-        List<Pair<UUID,Boolean>> requests;
 
         for (Map.Entry<UUID, AbstractMap.SimpleEntry<UUID, Boolean>> entry : teleportsCacheData.getPendingTeleportCache().entrySet()) {
 

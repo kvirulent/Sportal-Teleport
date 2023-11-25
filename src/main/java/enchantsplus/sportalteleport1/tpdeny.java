@@ -12,13 +12,11 @@ import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class tpdeny implements CommandExecutor {
 
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, String[] args) {
         Player target = (Player) sender;
-        List<Pair<UUID, Boolean>> requests;
 
         for (Map.Entry<UUID, AbstractMap.SimpleEntry<UUID, Boolean>> entry : teleportsCacheData.getPendingTeleportCache().entrySet()) {
             AbstractMap.SimpleEntry<UUID, Boolean> pair = entry.getValue();

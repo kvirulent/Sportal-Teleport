@@ -1,6 +1,6 @@
 package enchantsplus.sportalteleport1;
 
-import jdk.internal.net.http.common.Pair;
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
@@ -12,8 +12,6 @@ import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.AbstractMap;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.UUID;
 
 public class tpahere implements CommandExecutor {
