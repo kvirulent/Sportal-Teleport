@@ -1,6 +1,6 @@
-name: sPortal-Teleport-1.20_dev
+name: Sportal-Teleport
 version: '${project.version}'
-main: enchantsplus.sportalteleport1.SPortal_Teleport_1
+main: sportal.sportalteleport1.SPortal_Teleport_1
 api-version: '1.20'
 
 commands:
